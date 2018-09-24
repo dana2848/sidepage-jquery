@@ -27,3 +27,12 @@ $(document).ready(() => {
     });
   });
 });
+
+// -----side page
+function openPage() {
+    document.getElementById("sidePage").style.width = "40%";
+}
+
+function closePage() {
+    document.getElementById("sidePage").style.width = "0";
+}
